@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width scale =1.0">
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d1098e22e4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" loading="lazy" src="images/Black & White Minimalist Business Logo (2).png" />
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#info" class="nav-link">Info</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#subscribe-section" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="subscribe-section">
+      <h2 id="subscribe-heading">Subscribe!</h2>
+      <p id="subscribe-info">Subscribe to our newsletter for updates</p>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for="email">
+          <input type="email" id="email" name="email" placeholder="example@example.com" required>
+        </label>
+        <input type="submit" value="Submit" id="submit">
+      </form>
+    </section>
+
+    <section id="video-section">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/rXuasgbBetc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    
+    <section id="info">
+      <div class="service-info">
+        <i class="service-icon fa-solid fa-fingerprint"></i>
+        <div class="service-info-text">
+          <h3 class="service-info-heading">One of a Kind</h3>
+          <p class="service-info-details">A one of a kind product and experience. Honor the memory of your beloved pet.</p>
+        </div>
+      </div>
+      <div class="service-info">
+        <i class="service-icon fa-solid fa-gem"></i>
+        <div class="service-info-text">
+          <h3 class="service-info-heading">Quality Materials</h3>
+          <p class="service-info-details">High quality paint and paper make for a long lasting painting.</p>
+        </div>
+      </div>
+      <div class="service-info">
+        <i class="service-icon fa-solid fa-gift"></i>
+        <div class="service-info-text">
+          <h3 class="service-info-heading">Unique Gift Idea</h3>
+          <p class="service-info-details">Why not consider a pet portrait as a gift for a loved one.  A gift to last a life time.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+
+      <div class="item-info">
+        <h4 class="package-price-name">Dog Portrait</h4>
+        <p class="package-price">$300</p>
+        <ul>
+          <li>Single dog portrait</li>
+          <li>Warm monotone</li>
+          <li>Framed</li>
+          <li>Signed</li>
+        </ul>
+        <button class="select-button">Select</button>
+      </div>
+
+      <div class="item-info">
+        <h4 class="package-price-name">Double Portrait</h4>
+        <p class="package-price">$500</p>
+        <ul>
+          <li>Double dog portrait</li>
+          <li>Warm monotone</li>
+          <li>Framed</li>
+          <li>Landscape orientation</li>
+        </ul>
+        <button class="select-button">Select</button>
+      </div>
+
+      <div class="item-info">
+        <h4 class="package-price-name">Photoshoot and Portrait</h4>
+        <p class="package-price">$800</p>
+        <ul>
+          <li>Photoshoot</li>
+          <li>Single dog portrait</li>
+          <li>Warm monotone</li>
+          <li>Framed</li>
+        </ul>
+        <button class="select-button">Select</button>
+      </div>
+    </section>
+
+    
+
+    <footer id="footer">
+      <ul>
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>Contact</li>
+      </ul>
+      <p id="copyright">Copyright 2022, Josh MacKay Art</p>
+    </footer>
+  </body>
+</html>
